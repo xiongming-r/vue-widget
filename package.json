@@ -1,0 +1,26 @@
+{
+  "name": "bxm-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-bm-vue3": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "xiongming",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1",
+    "replace-in-file": "^7.0.2",
+    "rimraf": "^5.0.5"
+  }
+}
